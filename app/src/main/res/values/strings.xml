@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DC Comics Puzzle</string>
+    <string name="button_back">Back</string>
+    <string name="button_menu">Menu</string>
+    <string name="button_next">Next</string>
+    <string name="button_peek0">Peek: 0</string>
+    <string name="button_peek2">Peek: 2</string>
+    <string name="imagealt_endimage">Congratulations</string>
+    <string name="imagealt_logo">Jigsaw logo</string>
+    <string name="imagealt_preview">Preview image</string>
+    <string name="textview_dccomicspuzzle">DC Comics Puzzle</string>
+    <string name="textview_level">Level:</string>
+    <string name="textview_moves">Moves:</string>
+    <string name="textview_winmsg1">You have successfully unlocked every puzzle in this game! Congratulations!</string>
+    <string name="unlocked">Congratulations, this level has been unlocked in the level selector!</string>
+    <string name="completed">Congratulations, you have completed this level!</string>
+</resources>

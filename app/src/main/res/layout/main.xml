@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/wallpaper">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bannerbar" android:layout_width="match_parent" android:layout_height="0dp" android:baselineAligned="false" android:layout_weight="0.20">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/framebackground" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="14.0sp" android:textColor="@color/colorTextDark" android:gravity="left|center" android:id="@id/guilevel" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/textview_level" android:layout_weight="1" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/colorTextDark" android:gravity="left|center" android:id="@id/guimoves" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/textview_moves" android:layout_weight="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <Button android:textColor="@color/colorTextLight" android:id="@id/menu" android:background="@color/colorAccent" android:padding="0.0dip" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/button_menu" android:drawablePadding="0.0dip" android:layout_weight="1" />
+                <Button android:textColor="@color/colorTextLight" android:id="@id/preview" android:background="@color/colorPeek" android:padding="0.0dip" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/button_peek2" android:drawablePadding="0.0dip" android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:orientation="vertical" android:id="@id/frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.8">
+            <TableLayout android:id="@id/playfield" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

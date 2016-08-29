@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="back">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="guilevel">false</item>
+    <item type="id" name="guimoves">false</item>
+    <item type="id" name="menu">false</item>
+    <item type="id" name="nonext">false</item>
+    <item type="id" name="next">false</item>
+    <item type="id" name="nopreview">false</item>
+    <item type="id" name="preview">false</item>
+    <item type="id" name="frame">false</item>
+    <item type="id" name="playfield">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="image1">false</item>
+    <item type="id" name="gallery">false</item>
+    <item type="id" name="playlevel">false</item>
+    <item type="id" name="text">false</item>
+</resources>
